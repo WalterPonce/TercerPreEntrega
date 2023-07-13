@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;600&display=swap');
+
+* {    
+    font-family: 'Mulish', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1359af;
+  }
+
+  ul.navbar li {    
+    float: left;
+  }
+
+  ul.navbar li a {
+    display: block;
+    color: #d9e5ed;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  ul.navbar li a:hover {
+    background-color: #4c4f76;
+  }
+
+  ul.navbar li img {
+    width: 45px;
+    height: 45px;
+  }
